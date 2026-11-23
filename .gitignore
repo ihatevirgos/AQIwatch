@@ -1,0 +1,13 @@
+# Data lives in the shared Google Drive folder (AQI_Watch/data), not in git
+data/
+figures/
+*.csv
+run_metadata.json
+
+# Notebook / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# Never commit API keys
+.env
