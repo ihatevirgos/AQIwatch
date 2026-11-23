@@ -169,7 +169,7 @@ Every `FLAG` in the scorecard needs an explanation here, even if the answer is "
   `plt.savefig(f"{FIG_DIR}/fig_2-2_completeness_heatmap.png", dpi=200, bbox_inches="tight")`
   (`FIG_DIR` is the `figures/` folder next to `data/`; the notebook creates it.)
 - Name files `fig_<notebook section>_<topic>.png`, e.g. `fig_3-2_pm25_extremes.png`, `fig_5_class_balance.png`.
-- Every figure used in the report needs a caption that says what it shows and where the data comes from, e.g. *"Figure 3. Daily mean PM2.5 at the Ortigas station, Nov 2024–Oct 2026, with extreme hours (orange). Source: OpenAQ."*
+- Every figure used in the report needs a caption that says what it shows and where the data comes from, e.g. *"Figure 3. Daily mean PM2.5 at the Ortigas station, Aug 2024–Oct 2026, with extreme hours (orange). Source: OpenAQ."*
 
 ### 4.6 Meeting Notes
 
