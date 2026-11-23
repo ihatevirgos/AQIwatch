@@ -33,7 +33,7 @@ Source: OpenAQ v3 · hourly, **has gaps** · File: `table1_openaq_pm25_hourly_ra
 | `pm25` | Average PM2.5 concentration for the hour | µg/m³, 0–1000 | Feature / basis of target |
 | `pm25_min`, `pm25_max` | Lowest and highest raw reading within the hour | µg/m³ | Quality check |
 | `observed_count` | How many raw readings went into the hourly average | count | Quality check (duplicate resolution) |
-| `percent_coverage` | Share of expected readings received that hour | %, 0–100 | Quality check (< 75% → missing) |
+| `percent_coverage` | Share of expected readings received that hour | %, 0–100 | Quality check (< 25% → missing; see decision 5) |
 
 ### Table 1b — Nearest other PM2.5 station
 Same columns as Table 1. Used **only** for the accuracy cross-check (daily correlation); never merged. File: `table1b_openaq_neighbor_hourly_raw.csv`

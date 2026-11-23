@@ -4,6 +4,8 @@
 
 Predicts the DENR air quality risk category (Good, Fair, Unhealthy, Very Unhealthy, Acutely Unhealthy, Emergency) for the Ortigas monitoring station in Mandaluyong City, 24, 48 and 72 hours ahead.
 
+Study period: 14 Aug 2024 – 26 Oct 2026, hourly (19,296 hours).
+
 ## Data sources
 
 | Source | What | Access |
